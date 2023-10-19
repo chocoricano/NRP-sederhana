@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FAF8ED"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="#748E63"
+        android:text="NRP"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+   <EditText
+       android:id="@+id/nrp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="141dp"
+       android:layout_marginEnd="100dp"
+       android:layout_marginRight="100dp"
+       android:ems="10"
+       android:inputType="textPersonName"
+       android:minHeight="48dp"
+       android:hint="nrp"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="210dp"
+        android:background="#748E63"
+        android:textAlignment="center"
+        android:text="Nama"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <EditText
+       android:id="@+id/nama"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/textView2"
+       android:layout_centerInParent="true"
+       android:layout_marginBottom="-58dp"
+       android:ems="10"
+       android:inputType="textPersonName"
+       android:minHeight="48dp"
+       android:hint="nama"
+       />
+
+    <Button
+        android:id="@+id/Simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="#F9B572"
+        android:textColor="#ffff"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/ambildata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#F9B572"
+        android:textColor="#ffff"
+        android:text="AmbilData" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#F9B572"
+        android:textColor="#ffff"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#F9B572"
+        android:textColor="#ffff"
+        android:text="Delete" />
+</RelativeLayout>
+
